@@ -1,0 +1,4 @@
+git config --local --add user.name szymon242820
+git config --local --add user.email szymon242820@gmail.com
+git remote add origin https://github.com/szymon242820/wizualizacja_danych.git
+git push -u origin master
