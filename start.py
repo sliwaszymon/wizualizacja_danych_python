@@ -73,3 +73,14 @@ def pow():
 
 # from math import pow as mpow - importuje tylko jeden
 import math as m
+
+for liczba in range (1, 10, 2): # start, stop, step
+
+lista = [1, 2, 3 ,4 ,5]
+for index in range(len(lista)):
+    print(index)
+    
+for index, element in enumerate(lista, start=1):
+    print(f'wiersz {index}:{element}')
+    #krotka, ang. tuple, np (indeks, element)
+
